@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Optimized Simple Website</title>
+
+    <style>
+      body{font-family:sans-serif;line-height:1.6;margin:0;padding:0;background-color:#f4f4f4;color:#333}header{background-color:#333;color:#fff;padding:1rem 0;text-align:center}h1{margin-bottom:.5rem}main{max-width:960px;margin:2rem auto;padding:0 1rem}img{display:block;background-color:#eee} /* Minimal essential styles */
+    </style>
+
+    <link rel="preload" href="style.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="style.min.css"></noscript> 
+
+    </head>
+<body>
+    <header>
+        <h1>My Simple Website</h1>
+        <p>This page needs performance improvements!</p>
+    </header>
+
+    <main>
+        <section>
+            <h2>Above the Fold Content</h2>
+            <p>This content should be visible quickly. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum.</p>
+            <img src="image1.jpeg" alt="Relevant description for image 1" width="600" height="400"> 
+            <p>Curabitur sit amet magna quam. Praesent in libero vel SAPIEN ultrices SAPIEN.</p>
+        </section>
+
+        <section>
+            <h2>Below the Fold Content</h2>
+            <p>This content and the images below might not be immediately visible and could be lazy-loaded.</p>
+
+            <img src="image2.jpeg" alt="Relevant description for image 2" width="600" height="400" loading="lazy">
+            <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+
+            <img src="image3.jpeg" alt="Relevant description for image 3" width="600" height="400" loading="lazy">
+            <p>Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante.</p>
+
+            <img src="image4.jpeg" alt="Relevant description for image 4" width="600" height="400" loading="lazy">
+            <p>Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 My Simple Website</p>
+    </footer>
+
+    <script src="script.min.js" defer></script>
+    </body>
+</html>

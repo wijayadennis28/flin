@@ -1,0 +1,22 @@
+[
+  {
+    "keywords": ["hello", "hi", "hey"],
+    "response": "Hello! How can I help you today?"
+  },
+  {
+    "keywords": ["loan consolidation", "consolidate loan", "consolidate debt"],
+    "response": "Loan consolidation combines multiple debts into a single, larger loan, usually with one monthly payment. It can simplify your finances and potentially lower your interest rate."
+  },
+  {
+    "keywords": ["flin help", "how can flin help", "what does flin do", "help"],
+    "response": "FLIN can assist you with understanding your loan options, including consolidation, refinancing, and finding suitable financial products. We aim to simplify the financial process for you."
+  },
+  {
+    "keywords": ["apply", "application", "get started"],
+    "response": "You can start your application process directly on our website (www.flin.co.id) through the 'Konsultasi Gratis' button."
+  },
+  {
+    "keywords": ["bye", "thanks", "thank you", "ok"],
+    "response": "You're welcome! Let me know if you have any other questions."
+  }
+]

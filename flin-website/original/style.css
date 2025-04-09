@@ -1,0 +1,53 @@
+/* Basic Styling - Not Minified */
+
+body {
+    font-family: sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* Light grey background */
+    color: #333; /* Dark grey text */
+}
+
+header {
+    background-color: #333; /* Dark header background */
+    color: #fff; /* White text in header */
+    padding: 1rem 0;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 0.5rem;
+    /* A comment here */
+}
+
+main {
+    max-width: 960px; /* Limit content width */
+    margin: 2rem auto; /* Center content */
+    padding: 0 1rem;
+}
+
+section {
+    background-color: #fff; /* White background for sections */
+    margin-bottom: 1.5rem;
+    padding: 1.5rem;
+    border-radius: 5px; /* Slightly rounded corners */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Subtle shadow */
+}
+
+img {
+    max-width: 100%; /* Make images responsive */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Remove extra space below image */
+    margin: 1rem auto; /* Center images */
+    background-color: #eee; /* Placeholder bg color while loading */
+}
+
+footer {
+    text-align: center;
+    margin-top: 2rem;
+    padding: 1rem 0;
+    color: #666; /* Lighter grey text */
+}
+
+/* End of CSS */
